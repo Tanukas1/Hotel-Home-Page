@@ -1,0 +1,44 @@
+.services{
+    background-color: #eeeded;
+}
+.heading{
+    text-align: center;
+    padding: 70px;
+}
+.head {
+    font-family: 'Playfair Display', serif;
+     font-size: 40px;
+     font-weight: bold;
+   }
+
+   .head::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #c5953c;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.head:hover::after{
+    width: 25%;
+}   
+   
+.services .box-container{
+    display: flex;
+    padding: 0px 60px;
+    flex-wrap: wrap;
+    gap:4em;
+}
+.services  .box-container .box{
+    background-color:#eeeded ;
+    flex:1 1 20rem column; 
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    padding: 15px;
+  }
+  .services .box span{
+      font-family: 'Lato', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+  }

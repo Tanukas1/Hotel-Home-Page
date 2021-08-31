@@ -1,0 +1,100 @@
+.packages{
+  background-color: #eeeded;
+}
+.heading{
+    text-align: center;
+    padding: 70px;
+  }
+  
+  .head {
+   font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .head::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #c5953c;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.head:hover::after{
+    width: 20%;
+}   
+  
+  .para {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family:'Lato', sans-serif;
+  }
+  .packages .box-container{
+      display: flex;
+      padding: 0px 45px;
+      flex-wrap: wrap;
+      gap:1.5rem;
+    }
+    
+    .packages .box-container .box{
+      background-color: #fff;
+      flex:1 1 20rem;
+      overflow: hidden;
+      box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+      padding: 15px;
+    }
+    
+    .packages .box-container .box img{
+      height: 15rem;
+      width:98%;
+      object-fit: cover;
+    }
+    
+    .packages .box-container .box .contentone{
+      padding:1.5rem;
+    }
+    .contentone span p{
+          font-family: 'Dancing Script', cursive;
+          color:  rgb(255, 153, 0);
+          font-size: 25px;
+          padding: 5px;
+        }
+        .contentone span p:hover{
+        color:  #EDA100;
+        }  
+        .content p{
+          color: #9b9999;
+          font-size: medium;
+        }
+ .content .stars{
+  font-size:1.2rem;
+  color:#EDA100;
+ }
+ .content .stars span{
+color:#9b9999;
+font-size: 17px;
+ }
+ .content .price{
+  font-size: 1.3rem;
+  color:#333;
+  padding-top: 7px;
+padding-bottom: 13px;
+ }
+.content .price span{
+  color:#666;
+  font-size: 1.3rem;
+  text-decoration: line-through;
+}
+.content a{
+  background-color: #EDA100;
+padding: 10px 20px;
+text-decoration: none;
+color: #fff;
+}
+.content a:hover{
+background-color: #faef8c;
+border: 2px solid #EDA100 ;
+font-weight: 300;
+color: #EDA100;
+}

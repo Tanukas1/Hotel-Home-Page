@@ -1,0 +1,32 @@
+.gallery{
+    background-color: #eeeded;
+}
+.heading{
+    text-align: center;
+    padding: 70px;
+}
+.head {
+    font-family: 'Playfair Display', serif;
+     font-size: 40px;
+     font-weight: bold;
+   }
+
+   .head::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #c5953c;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.head:hover::after{
+    width: 25%;
+}   
+   
+.box-container{
+    display: flex;
+    padding: 0px 60px;
+    flex-wrap: row;
+    gap:1rem;
+}
